@@ -1,0 +1,12 @@
+{
+  "name": "data-structures-ts",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
