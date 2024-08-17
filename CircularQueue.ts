@@ -1,14 +1,12 @@
 class CircularQueue <T> { 
 
     private queue: any[];
-    private capacity: number;
     private currentLength: number;
     private rear: number;
     private front: number;
 
-    constructor(private cap: number) {
-        this.queue = new Array<T>(cap);
-        this.capacity = cap;
+    constructor(public capacity: number) {
+        this.queue = new Array<T>(capacity);
         this.currentLength = 0;
         this.rear = -1;
         this.front = -1;

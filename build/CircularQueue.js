@@ -1,9 +1,8 @@
 "use strict";
 class CircularQueue {
-    constructor(cap) {
-        this.cap = cap;
-        this.queue = new Array(cap);
-        this.capacity = cap;
+    constructor(capacity) {
+        this.capacity = capacity;
+        this.queue = new Array(capacity);
         this.currentLength = 0;
         this.rear = -1;
         this.front = -1;
